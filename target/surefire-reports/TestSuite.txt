@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 428.227 sec <<< FAILURE!
+checkOName(com.bank.qa.test.HomePageFeaturesTest)  Time elapsed: 1.503 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Nishal Dhashik] but found [sharanya bhiram]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.bank.qa.pages.HomePageFeatures.verifyOName(HomePageFeatures.java:35)
+	at com.bank.qa.test.HomePageFeaturesTest.checkOName(HomePageFeaturesTest.java:43)
+
